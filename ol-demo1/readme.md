@@ -1,10 +1,12 @@
-# OpenLayers + Webpack
+# OpenLayers + Webpack  example1
 
 This example demonstrates how the `ol` package can be used with webpack.
 
 Clone the project.
 
-    git clone git@github.com:openlayers/ol-webpack.git
+    git clone https://github.com/tianhongguo/openlayersDemo.git
+    
+Redefine serverUrl as your arcgis service in main.js file or use 'https://services.arcgis.com/rOo16HdIMeOBI4Mb/arcgis/rest/services/PDX_Pedestrian_Districts/FeatureServer/'
 
 Install the project dependencies.
 
