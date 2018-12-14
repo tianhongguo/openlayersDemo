@@ -8,7 +8,8 @@ Clone the project.
 Redefine serverUrl as your arcgis service in main.js file 
 
 Change the properties to your own in the main.js file
-![edit](/img/20181214142934.png)
+![edit](/img/20181214142934.png).
+
 Install the project dependencies.
 
     cd ol-webpack
