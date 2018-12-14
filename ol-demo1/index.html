@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Editable ArcGIS REST Feature Service</title>
+   <meta http-equiv="Access-Control-Allow-Origin" content="*">
+	  <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+	  <style type="text/css">
+	  .map{
+		height:100%;
+		width:100%;
+	  }
+	  </style>
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map">
+	<!--
+		<div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content" style="width:300px; height:120px;"></div>
+	</div> -->
+	</div>
+    <form class="form-inline">
+      <label>Draw or modify &nbsp;</label>
+      <select id="type">
+        <option value="DRAW">Draw</option>
+        <option value="MODIFY">Modify</option>
+      </select>
+    </form>
+     <script src="./bundle.js"></script>
+  </body>>
+  
+</html>
